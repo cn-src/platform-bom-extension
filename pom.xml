@@ -7,7 +7,7 @@
     <artifactId>platform-bom-extension</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    
+
     <properties>
         <assertj-core.version>3.8.0</assertj-core.version>
         <commons-collections4.version>4.1</commons-collections4.version>
@@ -298,4 +298,13 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <profiles>
+        <profile>
+            <id>demo</id>
+            <modules>
+                <module>demo</module>
+            </modules>
+        </profile>
+    </profiles>
 </project>
