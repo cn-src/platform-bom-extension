@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/cn.javaer/platform-bom-extension.svg)](https://jitpack.io/#cn.javaer/platform-bom-extension)
+
 # Spring IO platform extension
 * 对Spring IO platform的一些扩展依赖管理
 * 对部分旧依赖的scope变更为runtime, 如：commons-lang已被commons-lang3替代
@@ -5,7 +7,6 @@
 * 添加一些Spring IO platform没有进行管理的依赖
 * 管理的依赖支持到jdk8, 因此部分依赖只适合在jdk8的环境下
 
-[![](https://jitpack.io/v/cn.javaer/platform-bom-extension.svg)](https://jitpack.io/#cn.javaer/platform-bom-extension)
 ## Use
 Step 1. Add the JitPack repository to your build file
 ```xml
