@@ -5,7 +5,7 @@
 * 添加一些Spring IO platform没有进行管理的依赖
 * 管理的依赖支持到jdk8, 因此部分依赖只适合在jdk8的环境下
 
-[![](https://jitpack.io/v/cn.javaer.javaer/platform-bom-extension.svg)](https://jitpack.io/#cn.javaer.javaer/platform-bom-extension)
+[![](https://jitpack.io/v/cn.javaer/platform-bom-extension.svg)](https://jitpack.io/#cn.javaer/platform-bom-extension)
 ## Use
 Step 1. Add the JitPack repository to your build file
 ```xml
