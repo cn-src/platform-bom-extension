@@ -9,34 +9,34 @@
     <packaging>pom</packaging>
 
     <properties>
+        <aliyun-sdk-oss.version>2.6.1</aliyun-sdk-oss.version>
         <assertj-core.version>3.8.0</assertj-core.version>
         <commons-collections4.version>4.1</commons-collections4.version>
-        <guava.version>22.0</guava.version>
-        <commons-email.version>1.4</commons-email.version>
         <commons-crypto.version>1.0.0</commons-crypto.version>
         <commons-csv.version>1.4</commons-csv.version>
-        <super-csv.version>2.4.0</super-csv.version>
-        <springfox.version>2.7.0</springfox.version>
-        <mybatis.version>3.4.4</mybatis.version>
-        <mybatis-typehandlers-jsr310.version>1.0.2</mybatis-typehandlers-jsr310.version>
+        <commons-email.version>1.4</commons-email.version>
+        <cucumber.version>1.2.5</cucumber.version>
+        <druid.version>1.1.0</druid.version>
+        <fastjson.version>1.2.33</fastjson.version>
+        <fastutil.version>8.1.0</fastutil.version>
+        <guava.version>22.0</guava.version>
+        <javatuples.version>1.2</javatuples.version>
+        <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
+        <jetbrains.annotations.version>15.0</jetbrains.annotations.version>
+        <jodd.version>3.8.6</jodd.version>
         <mybatis-ehcache.version>1.1.0</mybatis-ehcache.version>
         <mybatis-spring-boot.version>1.3.0</mybatis-spring-boot.version>
-        <pagehelper.version>5.0.3</pagehelper.version>
-        <pagehelper-spring-boot-starter.version>1.1.1</pagehelper-spring-boot-starter.version>
-        <spring-data-mybatis.version>1.0.15.RELEASE</spring-data-mybatis.version>
-        <spring-boot-admin.version>1.5.1</spring-boot-admin.version>
-        <retrofit2.version>2.3.0</retrofit2.version>
+        <mybatis-typehandlers-jsr310.version>1.0.2</mybatis-typehandlers-jsr310.version>
+        <mybatis.version>3.4.4</mybatis.version>
         <okhttp3.version>3.8.1</okhttp3.version>
-        <jodd.version>3.8.6</jodd.version>
-        <cucumber.version>1.2.5</cucumber.version>
-        <fastjson.version>1.2.33</fastjson.version>
-        <druid.version>1.1.0</druid.version>
-        <aliyun-sdk-oss.version>2.6.1</aliyun-sdk-oss.version>
-        <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
-        <fastutil.version>8.1.0</fastutil.version>
-        <javatuples.version>1.2</javatuples.version>
-        <jetbrains.annotations.version>15.0</jetbrains.annotations.version>
+        <pagehelper-spring-boot-starter.version>1.1.1</pagehelper-spring-boot-starter.version>
+        <pagehelper.version>5.0.3</pagehelper.version>
         <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
+        <retrofit2.version>2.3.0</retrofit2.version>
+        <spring-boot-admin.version>1.5.1</spring-boot-admin.version>
+        <spring-data-mybatis.version>1.0.15.RELEASE</spring-data-mybatis.version>
+        <springfox.version>2.7.0</springfox.version>
+        <super-csv.version>2.4.0</super-csv.version>
     </properties>
 
     <dependencyManagement>
