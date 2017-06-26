@@ -36,10 +36,16 @@
         <fastutil.version>8.1.0</fastutil.version>
         <javatuples.version>1.2</javatuples.version>
         <jetbrains.annotations.version>15.0</jetbrains.annotations.version>
+        <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>cn.javaer</groupId>
+                <artifactId>retrofit2-converter-jaxb</artifactId>
+                <version>${retrofit2-converter-jaxb.version}</version>
+            </dependency>
             <!-- 部分第三方工具性质的依赖提供了新的不兼容版，故旧版只作为 runtime -->
             <dependency>
                 <artifactId>commons-lang</artifactId>
