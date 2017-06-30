@@ -26,17 +26,31 @@ Step 2. Add the dependency management
         <dependency>
             <groupId>cn.javaer</groupId>
             <artifactId>platform-bom-extension</artifactId>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
     </dependencies>
 </dependencyManagement>
 ```
+
 Step 3. Add the dependency
 ```xml
 <dependency>
     <groupId>com.alibaba</groupId>
     <artifactId>druid</artifactId>
 </dependency>
+```
+
+# Update list
+## 1.0.2
+### Dependency version update
+```
+com.aliyun.oss:aliyun-sdk-oss ......................... 2.6.1 -> 2.7.0
+com.github.pagehelper:pagehelper-spring-boot-starter ...1.1.1 -> 1.1.2
+com.google.code.findbugs:annotations .................. 2.0.3 -> 3.0.1u2
+de.codecentric:spring-boot-admin-server ............... 1.5.1 -> 1.5.2
+de.codecentric:spring-boot-admin-server-ui ............ 1.5.1 -> 1.5.2
+de.codecentric:spring-boot-admin-server-ui-login ...... 1.5.1 -> 1.5.2
+de.codecentric:spring-boot-admin-starter-client ....... 1.5.1 -> 1.5.2
 ```
