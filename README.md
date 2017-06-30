@@ -1,5 +1,5 @@
 [![](https://jitpack.io/v/cn.javaer/platform-bom-extension.svg)](https://jitpack.io/#cn.javaer/platform-bom-extension)
-
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Spring IO platform extension
 * 对Spring IO platform的一些扩展依赖管理
 * 对部分旧依赖的**scope**变更为`runtime`, 如：`commons-lang`已被`commons-lang3`替代
