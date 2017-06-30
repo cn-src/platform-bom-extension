@@ -7,7 +7,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <aliyun-sdk-oss.version>2.6.1</aliyun-sdk-oss.version>
+        <aliyun-sdk-oss.version>2.7.0</aliyun-sdk-oss.version>
         <assertj-core.version>3.8.0</assertj-core.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-crypto.version>1.0.0</commons-crypto.version>
@@ -19,7 +19,7 @@
         <druid.version>1.1.0</druid.version>
         <fastjson.version>1.2.33</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
-        <findbugs.annotations.version>2.0.3</findbugs.annotations.version>
+        <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
         <guava.version>22.0</guava.version>
         <javatuples.version>1.2</javatuples.version>
         <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
@@ -31,11 +31,11 @@
         <mybatis-typehandlers-jsr310.version>1.0.2</mybatis-typehandlers-jsr310.version>
         <mybatis.version>3.4.4</mybatis.version>
         <okhttp3.version>3.8.1</okhttp3.version>
-        <pagehelper-spring-boot-starter.version>1.1.1</pagehelper-spring-boot-starter.version>
+        <pagehelper-spring-boot-starter.version>1.1.2</pagehelper-spring-boot-starter.version>
         <pagehelper.version>5.0.3</pagehelper.version>
         <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
         <retrofit2.version>2.3.0</retrofit2.version>
-        <spring-boot-admin.version>1.5.1</spring-boot-admin.version>
+        <spring-boot-admin.version>1.5.2</spring-boot-admin.version>
         <spring-data-mybatis.version>1.0.15.RELEASE</spring-data-mybatis.version>
         <springfox.version>2.7.0</springfox.version>
         <super-csv.version>2.4.0</super-csv.version>
