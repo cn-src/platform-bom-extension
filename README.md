@@ -26,7 +26,7 @@ Step 2. Add the dependency management
         <dependency>
             <groupId>cn.javaer</groupId>
             <artifactId>platform-bom-extension</artifactId>
-            <version>1.0.2</version>
+            <version>1.0.3</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -43,6 +43,13 @@ Step 3. Add the dependency
 ```
 
 # Update list
+
+## 1.0.3
+### Dependency version update
+```
+com.alibaba:fastjson ................................ 1.2.33 -> 1.2.34
+```
+
 ## 1.0.2
 ### Dependency version update
 ```
