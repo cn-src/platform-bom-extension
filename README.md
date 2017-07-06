@@ -45,13 +45,13 @@ Step 3. Add the dependency
 # Update list
 
 ## 1.0.3
-### Dependency version update
+Dependency version update
 ```
 com.alibaba:fastjson ................................ 1.2.33 -> 1.2.34
 ```
 
 ## 1.0.2
-### Dependency version update
+Dependency version update
 ```
 com.aliyun.oss:aliyun-sdk-oss ......................... 2.6.1 -> 2.7.0
 com.github.pagehelper:pagehelper-spring-boot-starter ...1.1.1 -> 1.1.2
