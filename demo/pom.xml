@@ -13,7 +13,7 @@
             <dependency>
                 <groupId>cn.javaer</groupId>
                 <artifactId>platform-bom-extension</artifactId>
-                <version>1.0.4</version>
+                <version>1.0.5</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -264,6 +264,11 @@
         <dependency>
             <groupId>it.unimi.dsi</groupId>
             <artifactId>fastutil</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.kenglxn.qrgen</groupId>
+            <artifactId>javase</artifactId>
         </dependency>
 
         <dependency>
