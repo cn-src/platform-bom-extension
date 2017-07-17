@@ -16,8 +16,8 @@
         <commons-io.version>2.5</commons-io.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
-        <druid.version>1.1.0</druid.version>
-        <fastjson.version>1.2.34</fastjson.version>
+        <druid.version>1.1.1</druid.version>
+        <fastjson.version>1.2.35</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
         <guava.version>22.0</guava.version>
@@ -41,6 +41,7 @@
         <springfox.version>2.7.0</springfox.version>
         <super-csv.version>2.4.0</super-csv.version>
         <vavr.version>0.9.0</vavr.version>
+        <qrgen.version>2.3.0</qrgen.version>
     </properties>
     <licenses>
         <license>
@@ -399,6 +400,12 @@
                 <groupId>it.unimi.dsi</groupId>
                 <artifactId>fastutil</artifactId>
                 <version>${fastutil.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.kenglxn.qrgen</groupId>
+                <artifactId>javase</artifactId>
+                <version>${qrgen.version}</version>
             </dependency>
 
             <dependency>
