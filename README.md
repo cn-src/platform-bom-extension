@@ -26,7 +26,7 @@ Step 2. Add the dependency management
         <dependency>
             <groupId>cn.javaer</groupId>
             <artifactId>platform-bom-extension</artifactId>
-            <version>1.0.3</version>
+            <version>1.0.4</version>
             <type>pom</type>
             <scope>import</scope>
         </dependency>
@@ -43,6 +43,11 @@ Step 3. Add the dependency
 ```
 
 # Update list
+
+## 1.0.4
+Add dependency management
+
+See [itextpdf](http://developers.itextpdf.com/itext-7)
 
 ## 1.0.3
 Dependency version update
