@@ -40,6 +40,7 @@
         <spring-data-mybatis.version>1.0.15.RELEASE</spring-data-mybatis.version>
         <springfox.version>2.7.0</springfox.version>
         <super-csv.version>2.4.0</super-csv.version>
+        <sshj.version>0.21.1</sshj.version>
         <vavr.version>0.9.0</vavr.version>
         <qrgen.version>2.3.0</qrgen.version>
     </properties>
@@ -406,6 +407,12 @@
                 <groupId>com.github.kenglxn.qrgen</groupId>
                 <artifactId>javase</artifactId>
                 <version>${qrgen.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.hierynomus</groupId>
+                <artifactId>sshj</artifactId>
+                <version>${sshj.version}</version>
             </dependency>
 
             <dependency>
