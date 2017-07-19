@@ -13,7 +13,7 @@
             <dependency>
                 <groupId>cn.javaer</groupId>
                 <artifactId>platform-bom-extension</artifactId>
-                <version>1.0.7</version>
+                <version>1.0.8</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -255,7 +255,16 @@
             <artifactId>itext7-core</artifactId>
             <type>pom</type>
         </dependency>
-        
+
+        <dependency>
+            <groupId>org.dalesbred</groupId>
+            <artifactId>dalesbred</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.dalesbred</groupId>
+            <artifactId>dalesbred-junit</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>io.leopard.thirdparty</groupId>
             <artifactId>jcaptcha-core</artifactId>
