@@ -16,7 +16,7 @@
         <commons-io.version>2.5</commons-io.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
-        <druid.version>1.1.1</druid.version>
+        <druid.version>1.1.2</druid.version>
         <fastjson.version>1.2.35</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
