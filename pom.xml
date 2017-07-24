@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.javaer.platform</groupId>
     <artifactId>platform-bom-extension</artifactId>
@@ -44,6 +45,10 @@
         <vavr.version>0.9.0</vavr.version>
         <qrgen.version>2.3.0</qrgen.version>
         <dalesbred.version>1.2.4</dalesbred.version>
+        <spock-core.version>1.1-groovy-2.4</spock-core.version>
+        <groovy-all.version>2.4.11</groovy-all.version>
+        <byte-buddy.version>1.6.5</byte-buddy.version>
+        <objenesis.version>2.5.1</objenesis.version>
     </properties>
     <licenses>
         <license>
@@ -443,6 +448,32 @@
                 <groupId>com.google.code.findbugs</groupId>
                 <artifactId>annotations</artifactId>
                 <version>${findbugs.annotations.version}</version>
+            </dependency>
+
+            <!-- Mandatory dependencies for using Spock -->
+            <dependency>
+                <groupId>org.spockframework</groupId>
+                <artifactId>spock-core</artifactId>
+                <version>${spock-core.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <!-- Optional dependencies for using Spock -->
+            <dependency> <!-- use a specific Groovy version rather than the one specified by spock-core -->
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>${groovy-all.version}</version>
+            </dependency>
+            <dependency> <!-- enables mocking of classes (in addition to interfaces) -->
+                <groupId>net.bytebuddy</groupId>
+                <artifactId>byte-buddy</artifactId>
+                <version>${byte-buddy.version}</version>
+                <scope>test</scope>
+            </dependency>
+            <dependency> <!-- enables mocking of classes without default constructor (together with CGLIB) -->
+                <groupId>org.objenesis</groupId>
+                <artifactId>objenesis</artifactId>
+                <version>${objenesis.version}</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
