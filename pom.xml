@@ -10,6 +10,7 @@
     <properties>
         <aliyun-sdk-oss.version>2.8.1</aliyun-sdk-oss.version>
         <assertj-core.version>3.8.0</assertj-core.version>
+        <byte-buddy.version>1.6.5</byte-buddy.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-crypto.version>1.0.0</commons-crypto.version>
         <commons-csv.version>1.4</commons-csv.version>
@@ -17,10 +18,12 @@
         <commons-io.version>2.5</commons-io.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
+        <dalesbred.version>1.2.4</dalesbred.version>
         <druid.version>1.1.2</druid.version>
         <fastjson.version>1.2.35</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
+        <groovy-all.version>2.4.11</groovy-all.version>
         <guava.version>22.0</guava.version>
         <itext-pdf.version>7.0.3</itext-pdf.version>
         <javatuples.version>1.2</javatuples.version>
@@ -32,23 +35,20 @@
         <mybatis-spring-boot.version>1.3.0</mybatis-spring-boot.version>
         <mybatis-typehandlers-jsr310.version>1.0.2</mybatis-typehandlers-jsr310.version>
         <mybatis.version>3.4.4</mybatis.version>
+        <objenesis.version>2.5.1</objenesis.version>
         <okhttp3.version>3.8.1</okhttp3.version>
         <pagehelper-spring-boot-starter.version>1.1.2</pagehelper-spring-boot-starter.version>
         <pagehelper.version>5.0.3</pagehelper.version>
+        <qrgen.version>2.3.0</qrgen.version>
         <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
         <retrofit2.version>2.3.0</retrofit2.version>
+        <spock.version>1.1-groovy-2.4</spock.version>
         <spring-boot-admin.version>1.5.2</spring-boot-admin.version>
         <spring-data-mybatis.version>1.0.15.RELEASE</spring-data-mybatis.version>
         <springfox.version>2.7.0</springfox.version>
-        <super-csv.version>2.4.0</super-csv.version>
         <sshj.version>0.21.1</sshj.version>
+        <super-csv.version>2.4.0</super-csv.version>
         <vavr.version>0.9.0</vavr.version>
-        <qrgen.version>2.3.0</qrgen.version>
-        <dalesbred.version>1.2.4</dalesbred.version>
-        <spock-core.version>1.1-groovy-2.4</spock-core.version>
-        <groovy-all.version>2.4.11</groovy-all.version>
-        <byte-buddy.version>1.6.5</byte-buddy.version>
-        <objenesis.version>2.5.1</objenesis.version>
     </properties>
     <licenses>
         <license>
@@ -454,10 +454,28 @@
             <dependency>
                 <groupId>org.spockframework</groupId>
                 <artifactId>spock-core</artifactId>
-                <version>${spock-core.version}</version>
-                <scope>test</scope>
+                <version>${spock.version}</version>
             </dependency>
-            <!-- Optional dependencies for using Spock -->
+            <dependency>
+                <groupId>org.spockframework</groupId>
+                <artifactId>spock-guice</artifactId>
+                <version>${spock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.spockframework</groupId>
+                <artifactId>spock-spring</artifactId>
+                <version>${spock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.spockframework</groupId>
+                <artifactId>spock-tapestry</artifactId>
+                <version>${spock.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.spockframework</groupId>
+                <artifactId>spock-unitils</artifactId>
+                <version>${spock.version}</version>
+            </dependency>            <!-- Optional dependencies for using Spock -->
             <dependency> <!-- use a specific Groovy version rather than the one specified by spock-core -->
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
@@ -467,13 +485,11 @@
                 <groupId>net.bytebuddy</groupId>
                 <artifactId>byte-buddy</artifactId>
                 <version>${byte-buddy.version}</version>
-                <scope>test</scope>
             </dependency>
             <dependency> <!-- enables mocking of classes without default constructor (together with CGLIB) -->
                 <groupId>org.objenesis</groupId>
                 <artifactId>objenesis</artifactId>
                 <version>${objenesis.version}</version>
-                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
