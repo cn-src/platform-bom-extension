@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.javaer.platform</groupId>
     <artifactId>platform-bom-extension</artifactId>
-    <version>1.0.8-SNAPSHOT</version>
+    <version>1.0.9-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -43,6 +43,7 @@
         <sshj.version>0.21.1</sshj.version>
         <vavr.version>0.9.0</vavr.version>
         <qrgen.version>2.3.0</qrgen.version>
+        <dalesbred.version>1.2.4</dalesbred.version>
     </properties>
     <licenses>
         <license>
@@ -389,6 +390,17 @@
                 <artifactId>itext7-core</artifactId>
                 <version>${itext-pdf.version}</version>
                 <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.dalesbred</groupId>
+                <artifactId>dalesbred</artifactId>
+                <version>${dalesbred.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.dalesbred</groupId>
+                <artifactId>dalesbred-junit</artifactId>
+                <version>${dalesbred.version}</version>
             </dependency>
 
             <dependency>
