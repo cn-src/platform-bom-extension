@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.javaer.platform</groupId>
     <artifactId>platform-bom-extension</artifactId>
-    <version>1.0.10</version>
+    <version>1.0.11-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -59,7 +59,7 @@
         <url>https://github.com/javaercn/platform-bom-extension.git</url>
         <connection>scm:git:ssh://github.com/javaercn/platform-bom-extension.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/javaercn/platform-bom-extension.git</developerConnection>
-        <tag>1.0.10</tag>
+        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
