@@ -393,7 +393,7 @@
                 <groupId>com.itextpdf</groupId>
                 <artifactId>itext7-core</artifactId>
                 <version>${itext-pdf.version}</version>
-                <!--<type>pom</type>-->
+                <type>pom</type>
             </dependency>
 
             <dependency>
