@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 import groovy.xml.*
 
 def pom = new XmlSlurper(false, false).parse("./pom.xml")
