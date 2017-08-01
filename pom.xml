@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.javaer.platform</groupId>
     <artifactId>platform-bom-extension</artifactId>
-    <version>1.0.11-SNAPSHOT</version>
+    <version>1.0.12-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <properties>
@@ -22,7 +22,7 @@
         <fastjson.version>1.2.35</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
-        <groovy-all.version>2.4.11</groovy-all.version>
+        <groovy-all.version>2.4.12</groovy-all.version>
         <guava.version>22.0</guava.version>
         <itext-pdf.version>7.0.4</itext-pdf.version>
         <javatuples.version>1.2</javatuples.version>
