@@ -17,7 +17,7 @@
         <commons-io.version>2.5</commons-io.version>
         <commons-lang3.version>3.5</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
-        <dalesbred.version>1.2.4</dalesbred.version>
+        <dalesbred.version>1.2.5</dalesbred.version>
         <druid.version>1.1.2</druid.version>
         <fastjson.version>1.2.37</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
@@ -36,8 +36,8 @@
         <mybatis.version>3.4.5</mybatis.version>
         <objenesis.version>2.6</objenesis.version>
         <okhttp3.version>3.8.1</okhttp3.version>
-        <pagehelper-spring-boot-starter.version>1.1.3</pagehelper-spring-boot-starter.version>
-        <pagehelper.version>5.0.4</pagehelper.version>
+        <pagehelper-spring-boot-starter.version>1.2.0</pagehelper-spring-boot-starter.version>
+        <pagehelper.version>5.1.0</pagehelper.version>
         <qrgen.version>2.3.0</qrgen.version>
         <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
         <retrofit2.version>2.3.0</retrofit2.version>
@@ -45,7 +45,7 @@
         <spring-boot-admin.version>1.5.3</spring-boot-admin.version>
         <spring-data-mybatis.version>1.0.17.RELEASE</spring-data-mybatis.version>
         <springfox.version>2.7.0</springfox.version>
-        <sshj.version>0.21.1</sshj.version>
+        <sshj.version>0.22.0</sshj.version>
         <super-csv.version>2.4.0</super-csv.version>
         <vavr.version>0.9.0</vavr.version>
     </properties>
