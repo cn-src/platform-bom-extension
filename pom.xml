@@ -59,7 +59,6 @@
         <url>https://github.com/javaercn/platform-bom-extension.git</url>
         <connection>scm:git:ssh://github.com/javaercn/platform-bom-extension.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/javaercn/platform-bom-extension.git</developerConnection>
-        <tag>HEAD</tag>
     </scm>
     <developers>
         <developer>
