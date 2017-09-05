@@ -1,4 +1,6 @@
-[![](https://jitpack.io/v/cn.javaer/platform-bom-extension.svg)](https://jitpack.io/#cn.javaer/platform-bom-extension)
+[![GitHub release](https://img.shields.io/github/release/javaercn/platform-bom-extension.svg)]()
+[![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/platform-bom-extension.svg)]()
+[![](https://jitpack.io/v/javaercn/platform-bom-extension.svg)](https://jitpack.io/#javaercn/platform-bom-extension)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Spring IO platform extension
 * 对Spring IO platform的一些扩展依赖管理
@@ -9,17 +11,7 @@
 * 管理的依赖支持到jdk8, 因此部分依赖只适合在jdk8的环境下
 
 ## Use
-Step 1. Add the JitPack repository to your build file
-```xml
-<repositories>
-    <repository>
-        <id>jitpack.io</id>
-        <url>https://jitpack.io</url>
-    </repository>
-</repositories>
-```
-
-Step 2. Add the dependency management
+Maven Central
 ```xml
 <dependencyManagement>
     <dependencies>
