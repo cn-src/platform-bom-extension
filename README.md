@@ -26,7 +26,7 @@ Maven Central
 </dependencyManagement>
 ```
 
-Step 3. Add the dependency
+Add the dependency
 ```xml
 <dependency>
     <groupId>com.alibaba</groupId>
