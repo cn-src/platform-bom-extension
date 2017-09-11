@@ -1,6 +1,6 @@
 [![GitHub tag](https://img.shields.io/github/tag/javaercn/platform-bom-extension.svg)]()
 [![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/platform-bom-extension.svg)]()
-[![](https://jitpack.io/v/javaercn/platform-bom-extension.svg)](https://jitpack.io/#javaercn/platform-bom-extension)
+[![JitPack](https://img.shields.io/github/tag/javaercn/platform-bom-extension.svg?label=JitPack)](https://jitpack.io/#javaercn/platform-bom-extension)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Spring IO platform extension
 * 对Spring IO platform的一些扩展依赖管理
