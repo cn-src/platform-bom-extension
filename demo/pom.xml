@@ -265,6 +265,10 @@
       <artifactId>javase</artifactId>
     </dependency>
     <dependency>
+      <groupId>com.vdurmont</groupId>
+      <artifactId>emoji-java</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.hierynomus</groupId>
       <artifactId>sshj</artifactId>
     </dependency>
