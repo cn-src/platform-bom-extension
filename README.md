@@ -1,5 +1,5 @@
-[![GitHub tag](https://img.shields.io/github/tag/javaercn/platform-bom-extension.svg)]()
-[![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/platform-bom-extension.svg)]()
+[![GitHub tag](https://img.shields.io/github/tag/javaercn/platform-bom-extension.svg)](https://github.com/javaercn/platform-bom-extension/tags)
+[![Maven Central](https://img.shields.io/maven-central/v/cn.javaer/platform-bom-extension.svg)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22cn.javaer%22%20AND%20a%3A%22platform-bom-extension%22)
 [![JitPack](https://img.shields.io/github/tag/javaercn/platform-bom-extension.svg?label=JitPack)](https://jitpack.io/#javaercn/platform-bom-extension)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Spring IO platform extension
