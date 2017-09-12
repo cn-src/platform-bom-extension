@@ -265,6 +265,10 @@
       <artifactId>javase</artifactId>
     </dependency>
     <dependency>
+      <groupId>com.github.javaparser</groupId>
+      <artifactId>javaparser-core</artifactId>
+    </dependency>
+    <dependency>
       <groupId>com.vdurmont</groupId>
       <artifactId>emoji-java</artifactId>
     </dependency>

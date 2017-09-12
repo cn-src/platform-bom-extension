@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+cd demo && mvn versions:display-dependency-updates
