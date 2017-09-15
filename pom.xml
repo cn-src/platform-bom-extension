@@ -576,11 +576,5 @@
                 </plugins>
             </build>
         </profile>
-        <profile>
-            <id>demo</id>
-            <modules>
-                <module>demo</module>
-            </modules>
-        </profile>
     </profiles>
 </project>
