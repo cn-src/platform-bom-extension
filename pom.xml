@@ -22,15 +22,15 @@
         <commons-lang3.version>3.6</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
         <dalesbred.version>1.2.5</dalesbred.version>
-        <druid.version>1.1.3</druid.version>
+        <druid.version>1.1.4</druid.version>
         <emoji-java.version>3.3.0</emoji-java.version>
-        <fastjson.version>1.2.38</fastjson.version>
+        <fastjson.version>1.2.39</fastjson.version>
         <fastutil.version>8.1.0</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
         <groovy-all.version>2.4.12</groovy-all.version>
         <guava.version>23.0</guava.version>
         <itext-pdf.version>7.0.4</itext-pdf.version>
-        <javaparser-core.version>3.3.5</javaparser-core.version>
+        <javaparser-core.version>3.4.2</javaparser-core.version>
         <javatuples.version>1.2</javatuples.version>
         <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
         <jetbrains.annotations.version>15.0</jetbrains.annotations.version>
@@ -42,8 +42,8 @@
         <mybatis.version>3.4.5</mybatis.version>
         <objenesis.version>2.6</objenesis.version>
         <okhttp3.version>3.9.0</okhttp3.version>
-        <pagehelper-spring-boot-starter.version>1.2.1</pagehelper-spring-boot-starter.version>
-        <pagehelper.version>5.1.1</pagehelper.version>
+        <pagehelper-spring-boot-starter.version>1.2.3</pagehelper-spring-boot-starter.version>
+        <pagehelper.version>5.1.2</pagehelper.version>
         <qrgen.version>2.3.0</qrgen.version>
         <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
         <retrofit2.version>2.3.0</retrofit2.version>
@@ -53,7 +53,7 @@
         <springfox.version>2.7.0</springfox.version>
         <sshj.version>0.22.0</sshj.version>
         <super-csv.version>2.4.0</super-csv.version>
-        <vavr.version>0.9.0</vavr.version>
+        <vavr.version>0.9.1</vavr.version>
     </properties>
     <licenses>
         <license>
