@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.javaer</groupId>
     <artifactId>platform-bom-extension</artifactId>
@@ -13,12 +15,12 @@
     <properties>
         <aliyun-sdk-oss.version>2.8.1</aliyun-sdk-oss.version>
         <assertj-core.version>3.8.0</assertj-core.version>
-        <byte-buddy.version>1.7.5</byte-buddy.version>
+        <byte-buddy.version>1.7.7</byte-buddy.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-crypto.version>1.0.0</commons-crypto.version>
         <commons-csv.version>1.5</commons-csv.version>
         <commons-email.version>1.5</commons-email.version>
-        <commons-io.version>2.5</commons-io.version>
+        <commons-io.version>2.6</commons-io.version>
         <commons-lang3.version>3.6</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
         <dalesbred.version>1.2.5</dalesbred.version>
@@ -28,11 +30,11 @@
         <fastutil.version>8.1.0</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
         <groovy-all.version>2.4.12</groovy-all.version>
-        <guava.version>23.1-jre</guava.version>
+        <guava.version>23.2-jre</guava.version>
         <itext-pdf.version>7.0.4</itext-pdf.version>
-        <javaparser-core.version>3.4.2</javaparser-core.version>
+        <javaparser-core.version>3.5.0</javaparser-core.version>
         <javatuples.version>1.2</javatuples.version>
-        <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
+        <jcaptcha-core.version>${juniversalchardet.version}</jcaptcha-core.version>
         <jetbrains.annotations.version>15.0</jetbrains.annotations.version>
         <jodd.version>3.9.1</jodd.version>
         <jsch.version>0.1.54</jsch.version>
@@ -51,9 +53,10 @@
         <spring-boot-admin.version>1.5.4</spring-boot-admin.version>
         <spring-data-mybatis.version>1.0.17.RELEASE</spring-data-mybatis.version>
         <springfox.version>2.7.0</springfox.version>
-        <sshj.version>0.22.0</sshj.version>
+        <sshj.version>0.23.0</sshj.version>
         <super-csv.version>2.4.0</super-csv.version>
         <vavr.version>0.9.1</vavr.version>
+        <juniversalchardet.version>2.0.0</juniversalchardet.version>
     </properties>
     <licenses>
         <license>
@@ -64,9 +67,10 @@
     <scm>
         <url>https://github.com/javaercn/platform-bom-extension.git</url>
         <connection>scm:git:ssh://github.com/javaercn/platform-bom-extension.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/javaercn/platform-bom-extension.git</developerConnection>
-      <tag>HEAD</tag>
-  </scm>
+        <developerConnection>scm:git:ssh://git@github.com/javaercn/platform-bom-extension.git
+        </developerConnection>
+        <tag>HEAD</tag>
+    </scm>
     <developers>
         <developer>
             <name>zhangpeng</name>
@@ -455,13 +459,13 @@
                 <artifactId>javaparser-core</artifactId>
                 <version>${javaparser-core.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>com.vdurmont</groupId>
                 <artifactId>emoji-java</artifactId>
                 <version>${emoji-java.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>com.hierynomus</groupId>
                 <artifactId>sshj</artifactId>
@@ -472,6 +476,13 @@
                 <groupId>org.javatuples</groupId>
                 <artifactId>javatuples</artifactId>
                 <version>${javatuples.version}</version>
+            </dependency>
+
+            <dependency>
+                <!-- 字符集编码检测工具包 -->
+                <groupId>com.github.albfernandez</groupId>
+                <artifactId>juniversalchardet</artifactId>
+                <version>${juniversalchardet.version}</version>
             </dependency>
 
             <dependency>
