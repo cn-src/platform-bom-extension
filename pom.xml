@@ -522,18 +522,22 @@
                 <groupId>org.spockframework</groupId>
                 <artifactId>spock-unitils</artifactId>
                 <version>${spock.version}</version>
-            </dependency>            <!-- Optional dependencies for using Spock -->
-            <dependency> <!-- use a specific Groovy version rather than the one specified by spock-core -->
+            </dependency>
+            <!-- Optional dependencies for using Spock -->
+            <dependency>
+                <!-- use a specific Groovy version rather than the one specified by spock-core -->
                 <groupId>org.codehaus.groovy</groupId>
                 <artifactId>groovy-all</artifactId>
                 <version>${groovy-all.version}</version>
             </dependency>
-            <dependency> <!-- enables mocking of classes (in addition to interfaces) -->
+            <dependency>
+                <!-- enables mocking of classes (in addition to interfaces) -->
                 <groupId>net.bytebuddy</groupId>
                 <artifactId>byte-buddy</artifactId>
                 <version>${byte-buddy.version}</version>
             </dependency>
-            <dependency> <!-- enables mocking of classes without default constructor (together with CGLIB) -->
+            <dependency>
+                <!-- enables mocking of classes without default constructor (together with CGLIB) -->
                 <groupId>org.objenesis</groupId>
                 <artifactId>objenesis</artifactId>
                 <version>${objenesis.version}</version>
