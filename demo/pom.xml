@@ -343,7 +343,6 @@
                     <projectId>5a05cb3b15f0d72c01255048</projectId>
                     <organisation>cn-src</organisation>
                     <team>Owners</team>
-                    <licenseCheckBreakByUnknown>false</licenseCheckBreakByUnknown>
                 </configuration>
             </plugin>
         </plugins>
