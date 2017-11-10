@@ -344,7 +344,6 @@
                     <organisation>cn-src</organisation>
                     <team>Owners</team>
                     <licenseCheckBreakByUnknown>false</licenseCheckBreakByUnknown>
-                    <skipScopes>test</skipScopes>
                 </configuration>
             </plugin>
         </plugins>
