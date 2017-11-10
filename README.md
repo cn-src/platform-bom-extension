@@ -3,8 +3,10 @@ Spring IO platform extension
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/cn.javaer/platform-bom-extension/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cn.javaer/platform-bom-extension)
+[![JitPack](https://jitpack.io/v/cn-src/platform-bom-extension.svg)](https://jitpack.io/#cn-src/platform-bom-extension)
 
 [![Build Status](https://travis-ci.org/cn-src/platform-bom-extension.svg?branch=master)](https://travis-ci.org/cn-src/platform-bom-extension)
+[![Dependency Status](https://www.versioneye.com/user/projects/5a05cb3b15f0d72c01255048/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a05cb3b15f0d72c01255048)
 
 * 对Spring IO platform的一些扩展依赖管理
 * 对部分旧依赖的**scope**变更为`runtime`, 如：`commons-lang`已被`commons-lang3`替代
