@@ -4,5 +4,5 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - cd demo && mvn install versioneye:update versioneye:securityAndLicenseCheck -DskipTests=true -Dmaven.javadoc.skip=true -B -V -U
+  - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - cd demo && mvn clean install versioneye:update versioneye:securityAndLicenseCheck -DskipTests=true -Dmaven.javadoc.skip=true -B -V -U
