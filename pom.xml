@@ -8,7 +8,7 @@
 
     <name>platform-bom-extension</name>
     <description>platform bom extension</description>
-    <url>https://github.com/javaercn/platform-bom-extension</url>
+    <url>https://github.com/cn-src/platform-bom-extension</url>
 
     <properties>
         <aliyun-sdk-oss.version>2.8.1</aliyun-sdk-oss.version>
@@ -63,9 +63,9 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/javaercn/platform-bom-extension.git</url>
-        <connection>scm:git:ssh://github.com/javaercn/platform-bom-extension.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/javaercn/platform-bom-extension.git
+        <url>https://github.com/cn-src/platform-bom-extension.git</url>
+        <connection>scm:git:ssh://github.com/cn-src/platform-bom-extension.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/cn-src/platform-bom-extension.git
         </developerConnection>
         <tag>HEAD</tag>
     </scm>
