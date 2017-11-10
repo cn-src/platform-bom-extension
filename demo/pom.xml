@@ -340,6 +340,7 @@
                 <artifactId>versioneye-maven-plugin</artifactId>
                 <version>3.11.4</version>
                 <configuration>
+                    <projectId>cn-src/platform-bom-extension</projectId>
                     <organisation>cn-src</organisation>
                     <team>Owners</team>
                 </configuration>
