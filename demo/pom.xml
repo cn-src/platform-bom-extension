@@ -12,7 +12,7 @@
             <dependency>
                 <groupId>cn.javaer</groupId>
                 <artifactId>platform-bom-extension</artifactId>
-                <version>1.0.20</version>
+                <version>1.0.21-SNAPSHOT</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -334,6 +334,15 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>versions-maven-plugin</artifactId>
                 <version>2.5</version>
+            </plugin>
+            <plugin>
+                <groupId>com.versioneye</groupId>
+                <artifactId>versioneye-maven-plugin</artifactId>
+                <version>3.11.4</version>
+                <configuration>
+                    <organisation>cn-src</organisation>
+                    <team>Owners</team>
+                </configuration>
             </plugin>
         </plugins>
     </build>
