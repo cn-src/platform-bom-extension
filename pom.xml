@@ -243,6 +243,12 @@
                 <groupId>de.codecentric</groupId>
                 <artifactId>spring-boot-admin-server</artifactId>
                 <version>${spring-boot-admin.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>commons-logging</artifactId>
+                        <groupId>commons-logging</groupId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>de.codecentric</groupId>
@@ -521,6 +527,12 @@
                 <groupId>org.spockframework</groupId>
                 <artifactId>spock-unitils</artifactId>
                 <version>${spock.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <artifactId>commons-logging</artifactId>
+                        <groupId>commons-logging</groupId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <!-- Optional dependencies for using Spock -->
             <dependency>
