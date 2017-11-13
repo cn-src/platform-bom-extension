@@ -6,7 +6,6 @@ Spring IO platform extension
 [![JitPack](https://jitpack.io/v/cn-src/platform-bom-extension.svg)](https://jitpack.io/#cn-src/platform-bom-extension)
 
 [![Build Status](https://travis-ci.org/cn-src/platform-bom-extension.svg?branch=master)](https://travis-ci.org/cn-src/platform-bom-extension)
-[![Dependency Status](https://www.versioneye.com/user/projects/5a05cb3b15f0d72c01255048/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/5a05cb3b15f0d72c01255048)
 
 * 对 Spring IO platform 的一些扩展依赖管理，配合 Spring IO platform 或 Spring Boot 使用。
 * 对部分旧依赖的**scope**变更为`runtime`, 如：`commons-lang`已被`commons-lang3`替代。
@@ -44,3 +43,8 @@ Add the dependency
 
 [Spring IO Platform 当前版本的依赖管理](https://docs.spring.io/platform/docs/current/reference/htmlsingle/#appendix-dependency-versions)
 [Spring Boot 当前版本的依赖管理](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix-dependency-versions#appendix-dependency-versions)
+
+## 备注
+
+* 使用 `versions-maven-plugin` 插件检查版本更新以及自动更新版本号。
+* 使用 `com.updateimpact:submit` 插件检查依赖冲突项。
