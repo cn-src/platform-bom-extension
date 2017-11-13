@@ -48,4 +48,4 @@ Add the dependency
 ## 备注
 
 * 使用 `versions-maven-plugin` 插件检查版本更新以及自动更新版本号。
-* 使用 `com.updateimpact:submit` 插件检查依赖冲突项。
+* 使用 `updateimpact-maven-plugin` 插件检查依赖冲突项。
