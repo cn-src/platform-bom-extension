@@ -6,7 +6,8 @@ Spring IO platform extension
 [![JitPack](https://jitpack.io/v/cn-src/platform-bom-extension.svg)](https://jitpack.io/#cn-src/platform-bom-extension)
 
 [![Build Status](https://travis-ci.org/cn-src/platform-bom-extension.svg?branch=master)](https://travis-ci.org/cn-src/platform-bom-extension)
-
+[![Dependencies](https://app.updateimpact.com/badge/929976285940289536/demo.svg?config=test)](https://app.updateimpact.com/latest/929976285940289536/demo)
+                            
 * 对 Spring IO platform 的一些扩展依赖管理，配合 Spring IO platform 或 Spring Boot 使用。
 * 对部分旧依赖的**scope**变更为`runtime`, 如：`commons-lang`已被`commons-lang3`替代。
 * 排除一些依赖关系，如：依赖`commons-logging`。
