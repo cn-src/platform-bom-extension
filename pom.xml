@@ -551,6 +551,7 @@
                 <version>2.5</version>
                 <configuration>
                     <rulesUri>file://${basedir}/rules.xml</rulesUri>
+                    <generateBackupPoms>false</generateBackupPoms>
                 </configuration>
             </plugin>
             <plugin>
