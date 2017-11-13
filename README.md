@@ -13,7 +13,7 @@ Spring IO platform extension
 * 排除一些依赖关系，如：依赖`commons-logging`。
 * 升级 Spring IO platform 已经管理的部分依赖的版本。
 * 添加一些 Spring IO platform 没有进行管理的依赖。
-* 管理的依赖支持到 Java8, 因此部分依赖只适合在 Java8 的环境下
+* 管理的依赖支持到 Java8, 因此部分依赖只适合在 Java8 的环境下。
 
 ## Use
 Maven Central
@@ -42,8 +42,8 @@ Add the dependency
 
 ## 参考文档
 
-[Spring IO Platform 当前版本的依赖管理](https://docs.spring.io/platform/docs/current/reference/htmlsingle/#appendix-dependency-versions)
-[Spring Boot 当前版本的依赖管理](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix-dependency-versions#appendix-dependency-versions)
+* [Spring IO Platform 当前版本的依赖管理](https://docs.spring.io/platform/docs/current/reference/htmlsingle/#appendix-dependency-versions)
+* [Spring Boot 当前版本的依赖管理](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#appendix-dependency-versions#appendix-dependency-versions)
 
 ## 备注
 
