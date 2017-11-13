@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset>
+    <ignoreVersions>
+        <ignoreVersion type="regex">.*[aA]lpha.*</ignoreVersion>
+        <ignoreVersion type="regex">.*[bB]eta.*</ignoreVersion>
+    </ignoreVersions>
+    <rules>
+        <rule groupId="com.google.guava">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.*-android</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="com.hazelcast">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.*-EA</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="commons-collections">
+            <ignoreVersions>
+                <ignoreVersion type="regex">200[34].*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="javax.servlet">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.*-b\d+</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="org.jvnet.jaxb2_commons">
+            <ignoreVersions>
+                <ignoreVersion>1.11.1</ignoreVersion>
+                <ignoreVersion>1.11.1-PUBLISHED-BY-MISTAKE</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+        <rule groupId="org.postgresql">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.*\.jre[67]</ignoreVersion>
+            </ignoreVersions>
+        </rule>
+    </rules>
+</ruleset>
