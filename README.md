@@ -50,3 +50,4 @@ Add the dependency
 
 * 使用 `versions-maven-plugin` 插件检查版本更新以及自动更新版本号。
 * 使用 `updateimpact-maven-plugin` 插件检查依赖冲突项。
+* 使用 `Libraries.io` 分析依赖版本以及许可证。
