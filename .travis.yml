@@ -5,4 +5,4 @@ jdk:
 
 script:
   - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-  - cd demo && mvn clean install com.updateimpact:submit -DskipTests=true -Dmaven.javadoc.skip=true -B -V -U
+  - cd demo && mvn clean install com.updateimpact:updateimpact-maven-plugin:submit -DskipTests=true -Dmaven.javadoc.skip=true -B -V -U
