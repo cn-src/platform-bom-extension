@@ -36,5 +36,10 @@
                 <ignoreVersion type="regex">.*\.jre[67]</ignoreVersion>
             </ignoreVersions>
         </rule>
+        <rule groupId="com.aliyun.oss">
+            <ignoreVersions>
+                <ignoreVersion type="regex">.*-for-hadoop.*</ignoreVersion>
+            </ignoreVersions>
+        </rule>
     </rules>
 </ruleset>
