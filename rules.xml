@@ -38,7 +38,7 @@
         </rule>
         <rule groupId="com.aliyun.oss">
             <ignoreVersions>
-                <ignoreVersion type="regex">.*-for-hadoop.*</ignoreVersion>
+                <ignoreVersion type="regex">.*-for-.*</ignoreVersion>
             </ignoreVersions>
         </rule>
     </rules>
