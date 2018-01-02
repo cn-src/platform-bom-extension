@@ -29,7 +29,6 @@
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
         <groovy-all.version>2.4.13</groovy-all.version>
         <guava.version>23.5-jre</guava.version>
-        <itext-pdf.version>7.1.0</itext-pdf.version>
         <javaparser-core.version>3.5.5</javaparser-core.version>
         <javatuples.version>1.2</javatuples.version>
         <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
@@ -364,69 +363,6 @@
                         <groupId>commons-logging</groupId>
                     </exclusion>
                 </exclusions>
-            </dependency>
-
-            <!--i text pdf-->
-            <!-- always needed -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>kernel</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- always needed -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>io</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- always needed -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>layout</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- only needed for forms -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>forms</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- only needed for PDF/A -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>pdfa</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- only needed for digital signatures -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>sign</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- only needed for barcodes -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>barcodes</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- only needed for Asian fonts -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>font-asian</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- only needed for hyphenation -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>hyph</artifactId>
-                <version>${itext-pdf.version}</version>
-            </dependency>
-            <!-- add all iText Core modules -->
-            <dependency>
-                <groupId>com.itextpdf</groupId>
-                <artifactId>itext7-core</artifactId>
-                <version>${itext-pdf.version}</version>
-                <type>pom</type>
             </dependency>
 
             <dependency>
