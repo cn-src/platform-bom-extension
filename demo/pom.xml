@@ -116,14 +116,6 @@
       <artifactId>pagehelper-spring-boot-starter</artifactId>
     </dependency>
     <dependency>
-      <groupId>com.ifrabbit</groupId>
-      <artifactId>spring-data-mybatis</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>com.ifrabbit</groupId>
-      <artifactId>spring-boot-starter-data-mybatis</artifactId>
-    </dependency>
-    <dependency>
       <groupId>de.codecentric</groupId>
       <artifactId>spring-boot-admin-server</artifactId>
     </dependency>
