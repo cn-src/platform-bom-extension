@@ -204,6 +204,10 @@
       <artifactId>aliyun-sdk-oss</artifactId>
     </dependency>
     <dependency>
+      <groupId>com.aliyun</groupId>
+      <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+    </dependency>
+    <dependency>
       <groupId>org.dalesbred</groupId>
       <artifactId>dalesbred</artifactId>
     </dependency>
