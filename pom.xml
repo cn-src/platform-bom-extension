@@ -11,6 +11,7 @@
     <url>https://github.com/cn-src/platform-bom-extension</url>
 
     <properties>
+        <aliyun-java-sdk-dysmsapi.version>1.0.0</aliyun-java-sdk-dysmsapi.version>
         <aliyun-sdk-oss.version>3.0.0</aliyun-sdk-oss.version>
         <assertj-core.version>3.9.0</assertj-core.version>
         <byte-buddy.version>1.7.9</byte-buddy.version>
@@ -364,7 +365,12 @@
                     </exclusion>
                 </exclusions>
             </dependency>
-
+            <dependency>
+                <groupId>com.aliyun</groupId>
+                <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
+                <version>${aliyun-java-sdk-dysmsapi.version}</version>
+            </dependency>
+            
             <dependency>
                 <groupId>org.dalesbred</groupId>
                 <artifactId>dalesbred</artifactId>
