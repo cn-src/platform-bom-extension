@@ -14,7 +14,7 @@
         <aliyun-java-sdk-dysmsapi.version>1.0.0</aliyun-java-sdk-dysmsapi.version>
         <aliyun-sdk-oss.version>3.0.0</aliyun-sdk-oss.version>
         <assertj-core.version>3.9.0</assertj-core.version>
-        <byte-buddy.version>1.7.9</byte-buddy.version>
+        <byte-buddy.version>1.7.10</byte-buddy.version>
         <commons-collections4.version>4.1</commons-collections4.version>
         <commons-crypto.version>1.0.0</commons-crypto.version>
         <commons-csv.version>1.5</commons-csv.version>
@@ -29,12 +29,12 @@
         <fastutil.version>8.1.1</fastutil.version>
         <findbugs.annotations.version>3.0.1u2</findbugs.annotations.version>
         <groovy-all.version>2.4.13</groovy-all.version>
-        <guava.version>23.6-jre</guava.version>
-        <javaparser-core.version>3.5.12</javaparser-core.version>
+        <guava.version>24.0-jre</guava.version>
+        <javaparser-core.version>3.5.13</javaparser-core.version>
         <javatuples.version>1.2</javatuples.version>
         <jcaptcha-core.version>2.0.0</jcaptcha-core.version>
         <jetbrains.annotations.version>15.0</jetbrains.annotations.version>
-        <jodd.version>4.1.1</jodd.version>
+        <jodd.version>4.1.4</jodd.version>
         <jsch.version>0.1.54</jsch.version>
         <juniversalchardet.version>2.1.0</juniversalchardet.version>
         <mybatis-ehcache.version>1.1.0</mybatis-ehcache.version>
@@ -45,7 +45,7 @@
         <okhttp3.version>3.9.1</okhttp3.version>
         <pagehelper-spring-boot-starter.version>1.2.3</pagehelper-spring-boot-starter.version>
         <pagehelper.version>5.1.2</pagehelper.version>
-        <qrgen.version>2.3.0</qrgen.version>
+        <qrgen.version>2.4.0</qrgen.version>
         <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
         <retrofit2.version>2.3.0</retrofit2.version>
         <spock.version>1.1-groovy-2.4</spock.version>
