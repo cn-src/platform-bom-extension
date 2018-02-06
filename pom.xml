@@ -24,7 +24,7 @@
         <commons-lang3.version>3.7</commons-lang3.version>
         <cucumber.version>1.2.5</cucumber.version>
         <dalesbred.version>1.2.5</dalesbred.version>
-        <druid.version>1.1.6</druid.version>
+        <druid.version>1.1.7</druid.version>
         <emoji-java.version>4.0.0</emoji-java.version>
         <fastjson.version>1.2.45</fastjson.version>
         <fastutil.version>8.1.1</fastutil.version>
