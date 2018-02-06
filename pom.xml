@@ -13,6 +13,7 @@
     <properties>
         <aliyun-java-sdk-dysmsapi.version>1.0.0</aliyun-java-sdk-dysmsapi.version>
         <aliyun-sdk-oss.version>3.0.0</aliyun-sdk-oss.version>
+        <aliyun-spring-boot-starter-oss.version>1.0.0</aliyun-spring-boot-starter-oss.version>
         <assertj-core.version>3.9.0</assertj-core.version>
         <byte-buddy.version>1.7.10</byte-buddy.version>
         <commons-collections4.version>4.1</commons-collections4.version>
@@ -81,6 +82,11 @@
                 <groupId>cn.javaer</groupId>
                 <artifactId>retrofit2-converter-jaxb</artifactId>
                 <version>${retrofit2-converter-jaxb.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.javaer</groupId>
+                <artifactId>aliyun-spring-boot-starter-oss</artifactId>
+                <version>${aliyun-spring-boot-starter-oss.version}</version>
             </dependency>
             <!-- 部分第三方工具性质的依赖提供了新的不兼容版，故旧版只作为 runtime -->
             <dependency>
