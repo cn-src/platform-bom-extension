@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>cn.javaer</groupId>
     <artifactId>platform-bom-extension</artifactId>
@@ -57,6 +58,7 @@
         <super-csv.version>2.4.0</super-csv.version>
         <vavr.version>0.9.2</vavr.version>
         <wiremock.version>2.15.0</wiremock.version>
+        <aliyun-sms.version>1.0.0</aliyun-sms.version>
     </properties>
     <licenses>
         <license>
@@ -88,6 +90,16 @@
                 <groupId>cn.javaer</groupId>
                 <artifactId>aliyun-spring-boot-starter-oss</artifactId>
                 <version>${aliyun-spring-boot-starter-oss.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.javaer</groupId>
+                <artifactId>aliyun-sms</artifactId>
+                <version>${aliyun-sms.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>cn.javaer</groupId>
+                <artifactId>aliyun-spring-boot-starter-sms</artifactId>
+                <version>${aliyun-sms.version}</version>
             </dependency>
             <!-- 部分第三方工具性质的依赖提供了新的不兼容版，故旧版只作为 runtime -->
             <dependency>
@@ -203,7 +215,7 @@
                 <artifactId>spring-boot-starter-swagger</artifactId>
                 <version>${spring-boot-starter-swagger.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.mybatis</groupId>
                 <artifactId>mybatis</artifactId>
@@ -371,7 +383,7 @@
                 <artifactId>aliyun-java-sdk-dysmsapi</artifactId>
                 <version>${aliyun-java-sdk-dysmsapi.version}</version>
             </dependency>
-            
+
             <dependency>
                 <groupId>org.dalesbred</groupId>
                 <artifactId>dalesbred</artifactId>
