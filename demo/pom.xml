@@ -25,6 +25,14 @@
       <artifactId>aliyun-spring-boot-starter-oss</artifactId>
     </dependency>
     <dependency>
+      <groupId>cn.javaer</groupId>
+      <artifactId>aliyun-sms</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>cn.javaer</groupId>
+      <artifactId>aliyun-spring-boot-starter-sms</artifactId>
+    </dependency>
+    <dependency>
       <artifactId>commons-lang</artifactId>
       <groupId>commons-lang</groupId>
       <scope>runtime</scope>
