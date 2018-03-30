@@ -7,7 +7,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>cn.javaer</groupId>
+        <groupId>cn.javaer.platform</groupId>
         <artifactId>platform-bom-extension</artifactId>
         <version>1.1.1-SNAPSHOT</version>
         <type>pom</type>
