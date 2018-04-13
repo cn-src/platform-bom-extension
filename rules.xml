@@ -3,6 +3,7 @@
     <ignoreVersions>
         <ignoreVersion type="regex">.*[aA]lpha.*</ignoreVersion>
         <ignoreVersion type="regex">.*[bB]eta.*</ignoreVersion>
+        <ignoreVersion type="regex">.*[rR][cC].*</ignoreVersion>
     </ignoreVersions>
     <rules>
         <rule groupId="com.google.guava">
