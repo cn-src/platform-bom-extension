@@ -57,7 +57,7 @@
         <super-csv.version>2.4.0</super-csv.version>
         <vavr.version>0.9.2</vavr.version>
         <wiremock.version>2.18.0</wiremock.version>
-        <aliyun-sms.version>1.0.0</aliyun-sms.version>
+        <aliyun-sms.version>1.1.0</aliyun-sms.version>
     </properties>
     <licenses>
         <license>
@@ -86,12 +86,12 @@
                 <version>${aliyun-spring-boot-starter-oss.version}</version>
             </dependency>
             <dependency>
-                <groupId>cn.javaer</groupId>
+                <groupId>cn.javaer.aliyun</groupId>
                 <artifactId>aliyun-sms</artifactId>
                 <version>${aliyun-sms.version}</version>
             </dependency>
             <dependency>
-                <groupId>cn.javaer</groupId>
+                <groupId>cn.javaer.aliyun</groupId>
                 <artifactId>aliyun-spring-boot-starter-sms</artifactId>
                 <version>${aliyun-sms.version}</version>
             </dependency>
