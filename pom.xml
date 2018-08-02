@@ -48,7 +48,6 @@
         <pagehelper-spring-boot-starter.version>1.2.5</pagehelper-spring-boot-starter.version>
         <pagehelper.version>5.1.4</pagehelper.version>
         <qrgen.version>2.5.0</qrgen.version>
-        <retrofit2-converter-jaxb.version>1.0.0</retrofit2-converter-jaxb.version>
         <retrofit2.version>2.4.0</retrofit2.version>
         <spock.version>1.1-groovy-2.4</spock.version>
         <spring-boot-admin.version>1.5.7</spring-boot-admin.version>
@@ -81,11 +80,6 @@
     </developers>
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>cn.javaer</groupId>
-                <artifactId>retrofit2-converter-jaxb</artifactId>
-                <version>${retrofit2-converter-jaxb.version}</version>
-            </dependency>
             <dependency>
                 <groupId>cn.javaer</groupId>
                 <artifactId>aliyun-spring-boot-starter-oss</artifactId>
